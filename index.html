@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <h1 class="header__title">
+            Записаться <br />
+            <span class="header__subtile"> на лазерную эпиляцию </span>
+          </h1>
+          <button class="button-close header__button"></button>
+        </div>
+      </header>
+      <main class="main">
+        <section class="callback">
+          <div class="container callback__container">
+            <h2 class="callback__title">
+              Свяжемся в рабочее время с 10:00 доо 20:00
+            </h2>
+            <span class="callback__icon"></span>
+
+            <form class="form" id="form" action="#" method="POST">
+              <p class="form__block">
+                <label class="form__label" for="phone">Номер телефона</label>
+                <input
+                  class="form__input"
+                  type="phone"
+                  id="phone"
+                  placeholder="+7 (999) 999 99 99"
+                  required
+                />
+              </p>
+              <input class="form__button" form="form" type="submit" value="стрелочка" />
+            </form>
+          </div>
+        </section>
+
+        <section class="self-recording">
+          <div class="container self-recording__container">
+            <h2 class="self-recording__title">
+              Или запишитесь самостоятельно через:
+            </h2>
+            <div class="social-group">
+              <ul class="social-group__list">
+                <li class="social-group__item social-group__item--yclients">
+                  <a href="" class="social-group__link">
+                    Онлайн сервис Yclients
+                  </a>
+                </li>
+                <li class="social-group__item social-group__item--whats-app">
+                  <a href="" class="social-group__link">
+                    Оператора в WhatsApp
+                  </a>
+                </li>
+                <li class="social-group__item social-group__item--instagram">
+                  <a href="" class="social-group__link"> Директ в Instagram </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <p class="footer__text">
+            Соглашение на обработку моих персанальных данных
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="scripte.js"></script>
+  </body>
+</html>
